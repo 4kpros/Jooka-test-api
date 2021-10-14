@@ -9,9 +9,4 @@ app.use(BodyParser.json());
 app.use('/posts', postsRoutes);
 app.use('/comments', commentsRoutes);
 
-// // Home page message
-// app.get('/', (req, res) => {
-//     res.send('Hello and welcome to jooka-test API ! <br><br> Add <b>/posts/all</b> to look all posts <br> Add <b>/comments/all</b> to look all comments');
-// });
-
 app.listen(port, () => console.log('Server started: 5000'));
