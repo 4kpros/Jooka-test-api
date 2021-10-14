@@ -5,21 +5,21 @@ express js API https://jooka-test-api.herokuapp.com
 
    Posts Links
 
-      Get all posts
+      (GET) all posts
       https://jooka-test-api.herokuapp.com/posts/all
 
-      Save new post 
+      (POST) new post 
       https://jooka-test-api.herokuapp.com/posts
 
-      Delete post
+      (DELETE) post : parameter "id"
       https://jooka-test-api.herokuapp.com/posts/all
 
    Comments Links
 
-      Get all comments
+      (GET) all comments
       https://jooka-test-api.herokuapp.com/comments/all
 
-      Save new comment 
+      (POST) new comment 
       https://jooka-test-api.herokuapp.com/comments
 
 
