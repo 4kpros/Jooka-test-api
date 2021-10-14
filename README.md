@@ -3,20 +3,26 @@
 express js API 
 
 
-Get all posts
-https://jooka-test-api.herokuapp.com/posts/all
+   Links
+   
+      Posts
+      
+         Get all posts
+         https://jooka-test-api.herokuapp.com/posts/all
 
-Save new post 
-https://jooka-test-api.herokuapp.com/posts
+         Save new post 
+         https://jooka-test-api.herokuapp.com/posts
 
-Delete post
-https://jooka-test-api.herokuapp.com/posts/all
+         Delete post
+         https://jooka-test-api.herokuapp.com/posts/all
+      
+      Comments
 
-Get all comments
-https://jooka-test-api.herokuapp.com/comments/all
+         Get all comments
+         https://jooka-test-api.herokuapp.com/comments/all
 
-Save new comment 
-https://jooka-test-api.herokuapp.com/comments
+         Save new comment 
+         https://jooka-test-api.herokuapp.com/comments
 
 
     *Post SCHEMA:
