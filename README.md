@@ -1,11 +1,9 @@
 # Jooka-test-api
 
-express js API 
+express js API https://jooka-test-api.herokuapp.com
 
 
-Links
-
-   Posts
+   Posts Links
 
       Get all posts
       https://jooka-test-api.herokuapp.com/posts/all
@@ -16,7 +14,7 @@ Links
       Delete post
       https://jooka-test-api.herokuapp.com/posts/all
 
-   Comments
+   Comments Links
 
       Get all comments
       https://jooka-test-api.herokuapp.com/comments/all
