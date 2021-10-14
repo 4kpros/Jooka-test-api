@@ -25,7 +25,7 @@ express js API
          https://jooka-test-api.herokuapp.com/comments
 
 
-    *Post SCHEMA:
+    Post SCHEMA:
     
         title: {
           type: String,
@@ -47,7 +47,7 @@ express js API
         }
         
         
-    *Comment SCHEMA:
+    Comment SCHEMA:
     
         post_id: {
           type: Number,
