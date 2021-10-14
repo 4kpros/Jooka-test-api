@@ -4,7 +4,8 @@
   "description": "Jooka API for test",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
   },
   "keywords": [
     "jooka-test-api",
