@@ -21,9 +21,6 @@
   "engines": {
     "node": "14.17.1"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.13"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/4kpros/Jooka-test-api.git"
