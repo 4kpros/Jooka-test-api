@@ -11,17 +11,18 @@
     "heroku"
   ],
   "author": "Prosper Abouar",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^6.0.10",
-    "nodemon": "^2.0.13"
+    "mongoose": "^6.0.10"
   },
   "engines": {
     "node": "14.17.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/4kpros/Jooka-test-api.git"
