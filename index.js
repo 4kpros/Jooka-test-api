@@ -3,12 +3,9 @@ const app = express();
 require('./models/dbConfig');
 const postsRoutes = require('./controllers/postsController');
 const commentsRoutes = require('./controllers/commentsController');
-const bodyParser = require('body-parser');
-const cors = require('cors');
 const port = process.env.PORT || 5000
 
-app.use(bodyParser.json());
-app.use((cors()));
+app.use(BodyParser.json());
 app.use('/posts', postsRoutes);
 app.use('/comments', commentsRoutes);
 
