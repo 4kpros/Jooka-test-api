@@ -7,7 +7,7 @@ var CommentSchema = new Schema({
 	content:String,
 	date:Date
  });
- const CommentModel = module.exports = mongoose.model('jooka-test-api', CommentSchema);  
+ const CommentModel = module.exports = mongoose.model('comments', CommentSchema);  
 
 // const CommentModel = mongoose.model(
 // 	"jooka-test-api",

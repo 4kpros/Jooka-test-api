@@ -8,7 +8,7 @@ var postSchema = new Schema({
 	sender:String,
 	thumbnail:String
 });
-const PostModel = module.exports = mongoose.model('PostModel', postSchema);  
+const PostModel = module.exports = mongoose.model('posts', postSchema);  
 
 // const PostModel = mongoose.model(
 // 	"jooka-test-api",
