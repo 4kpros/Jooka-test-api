@@ -14,7 +14,7 @@ router.get('/all', (req, res) => {
 
 // Save new post
 router.post('/', (req, res) => {
-    const newRecord = new PostsModel({
+    const newRecord = new PostModel({
         title: req.body.title,
         description: req.body.description,
         date: req.body.date,
